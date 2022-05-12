@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Digital clock made of multiple analog clocks." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=1" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="color-scheme" content="dark" />
+        <meta property="og:site_name" content="Digilog Clock" />
+        <meta property="og:image" content="/digilog-clock/icons/summary.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:image" content="/digilog-clock/icons/summary.png" />
+        <meta name="apple-mobile-web-app-title" content="Digilog Clock" />
+        <meta name="application-name" content="Digilog Clock" />
+        <meta name="msapplication-TileColor" content="#1d1c23" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <link rel="manifest" href="/digilog-clock/manifest.json" />
+
+        <title>Digilog Clock</title>
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/digilog-clock/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/digilog-clock/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/digilog-clock/icons/favicon-16x16.png" />
+        <link rel="shortcut icon" href="/digilog-clock/icons/favicon.ico" />        
+
+        <!-- Global stylesheet -->
+        <link rel="stylesheet" href="/digilog-clock/global.css" />
+
+        %svelte.head%
+    </head>
+    <body>
+        <noscript>
+            <strong>
+				Sorry, this website doesn't work without Javascript.
+				Please enable it to continue.
+            </strong>
+        </noscript>
+
+        <div id="app">%svelte.body%</div>
+    </body>
+</html>
